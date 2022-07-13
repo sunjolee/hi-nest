@@ -140,9 +140,12 @@ entity 와 service & controller 연동
   
 # 2.3 Movies Service part Two (08:03)
 
-
-  
+ 
 # 2.4 DTOs and Validation part One (10:52)
+
+* 유효성 검사를 위해 설치
+
+npm i class-validator class-transformer
   
 # 2.5 DTOs and Validation part Two (05:34)
   
