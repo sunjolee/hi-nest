@@ -91,8 +91,13 @@ export class AppService {
 # 2 REST API
   
 # 2.0 Movies Controller (09:37)
+
+nest g co : 명령하면 movies 컨트롤러가 생성 된다.
+
+CRUD 컨트롤러 작성 & Insomnia 로 테스트
   
 # 2.1 More Routes (06:58)
+ 
   
 # 2.2 Movies Service part One (10:48)
   
@@ -105,6 +110,8 @@ export class AppService {
 # 2.6 Modules and Dependency Injection (07:07)
   
 # 2.7 Express on NestJS (03:22)
+
+
 # 3 UNIT TESTING
   
 # 3.0 Introduction to Testing in Nest (04:54)
@@ -116,6 +123,9 @@ export class AppService {
 # 3.3 Testing delete and create (07:10)
   
 # 3.4 Testing update (05:02)
+
+
+
 # 4 E2E TESTING
   
 # 4.0 Testing movies (08:31)
