@@ -174,6 +174,8 @@ jest는 자바스크립트를 아주 쉽게 테스팅하는 npm 패키지이다
 * npm run test:cov 
 
 이 명령어는 spec.ts 파일들을 찾아서 몇줄이 테스트 되었는지 찾아 준다.
+얼마나 테스트 되었는지 확인
+
 
 * npm run test:watch   --> 테스트 
 
@@ -187,6 +189,8 @@ jest는 자바스크립트를 아주 쉽게 테스팅하는 npm 패키지이다
 # 3.1 Your first Unit Test (04:12)
   
 # 3.2 Testing getAll and getOne (08:16)
+
+npm run test:cov : 얼마나 테스트 되었는지 확인
   
 # 3.3 Testing delete and create (07:10)
   
