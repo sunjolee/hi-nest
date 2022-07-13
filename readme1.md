@@ -139,6 +139,8 @@ entity 와 service & controller 연동
 
   
 # 2.3 Movies Service part Two (08:03)
+
+
   
 # 2.4 DTOs and Validation part One (10:52)
   
