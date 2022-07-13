@@ -148,6 +148,9 @@ entity 와 service & controller 연동
 npm i class-validator class-transformer
   
 # 2.5 DTOs and Validation part Two (05:34)
+
+npm i @nestjs/mapped-types : 타입을 변환 시키고 사용할 수 있게 하는 패키지
+
   
 # 2.6 Modules and Dependency Injection (07:07)
   
