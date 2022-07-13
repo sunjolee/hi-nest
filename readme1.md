@@ -153,7 +153,9 @@ npm i @nestjs/mapped-types : 타입을 변환 시키고 사용할 수 있게 하
 
   
 # 2.6 Modules and Dependency Injection (07:07)
-  
+
+nest g mo : 명령어로 모을를 만든다.
+
 # 2.7 Express on NestJS (03:22)
 
 
