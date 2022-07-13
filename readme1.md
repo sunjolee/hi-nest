@@ -175,7 +175,7 @@ jest는 자바스크립트를 아주 쉽게 테스팅하는 npm 패키지이다
 
 이 명령어는 spec.ts 파일들을 찾아서 몇줄이 테스트 되었는지 찾아 준다.
 
-* npm run test:watch
+* npm run test:watch   --> 테스트 
 
 * 유닛테스트(단위테스트) - function 단위 테스트
 
