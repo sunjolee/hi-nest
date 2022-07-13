@@ -198,12 +198,27 @@ npm run test:cov : 얼마나 테스트 되었는지 확인
 
 
 
-# 4 E2E TESTING
+# 4 E2E TESTING₩
   
 # 4.0 Testing movies (08:31)
+
+npm run test:e2e
   
 # 4.1 Testing GET movies id (08:54)
   
+insomnia에서 id값을 1로 넣고 테스트를 하면 
+
+    app.useGlobalPipes(
+        new ValidationPipe({
+          whitelist: true,
+          forbidNonWhitelisted: true,
+          transform: true,
+        }),
+
+위 로직 transform에 의해 문자 1이 number로 변환 된다.
+
+테스트도 동일하게 적용하려면 위 로직이 app.e2e-spec.ts에 적용 되어야 정상 테스트가 가능하다.
+
 # 4.2 Testing PATCH and DELETE movies id (04:09)
   
 # 4.3 Finishing Up (01:44)
