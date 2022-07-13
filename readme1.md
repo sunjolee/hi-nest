@@ -98,6 +98,36 @@ CRUD 컨트롤러 작성 & Insomnia 로 테스트
   
 # 2.1 More Routes (06:58)
  
+... 문법
+
+...prevState를 사용하여 기존 객체를 복사함과 동시에 age키에 새로운 값(23)을 할
+당할 수 있습니다.
+
+리액트의 props나 state처럼 이전 정보를 이용하는 경우 유용하게 사용할 수 있습니다.
+```typescript
+var prevState = {
+  name: "yuddomack",
+  birth: "1996-11-01",
+  age: 22
+};
+
+var state = {
+  ...prevState,
+  age: 23
+};
+
+console.log(state); // { name: 'yuddomack', birth: '1996-11-01', age: 23 }
+```
+
+```typescript
+console.log(updateData);
+// { name: 'sunjo', addr: 'sadang' }
+
+const aa = {...updateData, name:'123', col:123};
+console.log(aa);
+// { name: '123', addr: 'sadang', col: 123 }
+
+```
   
 # 2.2 Movies Service part One (10:48)
   
