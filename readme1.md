@@ -25,6 +25,7 @@ nest new hi-nest
   
 # 1.0 Overview (04:57)
 
+실행
 npm run start:dev
 
 http://localhost:3000/ 실행
@@ -158,10 +159,30 @@ nest g mo : 명령어로 모을를 만든다.
 
 # 2.7 Express on NestJS (03:22)
 
+NestJS는 Express 프레임워크 위에서 동작한다.
+Fastify 프레임워크는 Express 보다 2배 정도 빠르다.
+NestJS는 Express, Fastify 프레임워크 위에서 동시에 동작
+그래서 req, res Express 객체는 가능한 사용 하지 말자!
+NestJS에서 Express, Fastify로 바로 전환 할 수 있기에 NestJS 방식으로 사용!!
 
 # 3 UNIT TESTING
   
 # 3.0 Introduction to Testing in Nest (04:54)
+
+jest는 자바스크립트를 아주 쉽게 테스팅하는 npm 패키지이다
+
+* npm run test:cov 
+
+이 명령어는 spec.ts 파일들을 찾아서 몇줄이 테스트 되었는지 찾아 준다.
+
+* npm run test:watch
+
+* 유닛테스트(단위테스트) - function 단위 테스트
+
+* e2e 테스트 (end-to-end) - 모든 시스템을 테스트 - 사용자가 특정 링크를 클릭하면 이 링크를 볼 수 있어야 하는 걸 테스트
+
+
+
   
 # 3.1 Your first Unit Test (04:12)
   
