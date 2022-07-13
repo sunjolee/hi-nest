@@ -130,6 +130,13 @@ console.log(aa);
 ```
   
 # 2.2 Movies Service part One (10:48)
+
+nest g s : 명령어로 서비스를 만든다.
+
+이 때 app.module.ts 에는 자동으로 코드가 생성 된다.
+
+entity 와 service & controller 연동
+
   
 # 2.3 Movies Service part Two (08:03)
   
